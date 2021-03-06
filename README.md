@@ -1,5 +1,4 @@
-# Documentacao
-Após baixar o projeto, abra o mesmo em seu VS Code ou Qualquer outra IDE e seguida os seguintes passos:
+# Passos para rodar o projeto
 
 # Primeiro: 
     Verifique se tem o node instalado, caso não tenha baixe ele no link: https://nodejs.org/pt-br/download/
