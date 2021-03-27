@@ -6,7 +6,7 @@
 	<GUID>2D4AF525-028D-EB11-9405-DBEDA1E199D0</GUID>
 	<Title>ProjetoCinefy</Title>
 	<CreationDate>2021-03-24T09:00:00</CreationDate>
-	<LastSaved>2021-03-26T22:14:00</LastSaved>
+	<LastSaved>2021-03-26T22:37:00</LastSaved>
 	<ScheduleFromStart>1</ScheduleFromStart>
 	<StartDate>2021-03-24T09:00:00</StartDate>
 	<FinishDate>2021-06-18T09:00:00</FinishDate>
@@ -9678,6 +9678,13 @@ Análise de filmes
 			<LevelingDelay>0</LevelingDelay>
 			<LevelingDelayFormat>8</LevelingDelayFormat>
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
+			<Notes>Criar: 
+Front-end :
+Campos de cadastro
+Back-end:
+Lógica de cadastro
+
+</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
 			<BCWS>0.00</BCWS>
@@ -9803,6 +9810,15 @@ Análise de filmes
 			<LevelingDelay>0</LevelingDelay>
 			<LevelingDelayFormat>8</LevelingDelayFormat>
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
+			<Notes>Criar: 
+Front-end :
+Campos de login
+Back-end:
+Lógica de login
+
+
+
+</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
 			<BCWS>0.00</BCWS>
@@ -9928,6 +9944,13 @@ Análise de filmes
 			<LevelingDelay>0</LevelingDelay>
 			<LevelingDelayFormat>8</LevelingDelayFormat>
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
+			<Notes>Criar: 
+Front-end :
+Paginações e ou Carousel
+Seções de Filmes
+Back-end:
+Lógica da paginação
+</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
 			<BCWS>0.00</BCWS>
@@ -10053,6 +10076,13 @@ Análise de filmes
 			<LevelingDelay>0</LevelingDelay>
 			<LevelingDelayFormat>8</LevelingDelayFormat>
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
+			<Notes>Criar: 
+Front-end :
+Title
+TextArea
+Back-end:
+Lógica de comentários de usuários
+</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
 			<BCWS>0.00</BCWS>
@@ -10270,9 +10300,14 @@ Análise de filmes
 			<LevelingDelay>0</LevelingDelay>
 			<LevelingDelayFormat>8</LevelingDelayFormat>
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
-			<Notes>Criação das o páginas da Dashboard
-Login - login dos administradores
-Usuários - Em usuário a ideia é uma fazer uma tabela com uma lista com o apelido de todos os usuários, o id, data da criação da conta, ultima vez que entrou no site
+			<Notes>Criar: 
+Front-end :
+Campos de login da dashboard
+Index da dashboard com menu
+Back-end:
+Lógica do login da dashboard
+
+
 
 </Notes>
 			<HideBar>0</HideBar>
@@ -14909,7 +14944,7 @@ Usuários - Em usuário a ideia é uma fazer uma tabela com uma lista com o apel
 			<BCWS>0.00</BCWS>
 			<BCWP>0.00</BCWP>
 			<BookingType>0</BookingType>
-			<CreationDate>2021-03-26T22:12:00</CreationDate>
+			<CreationDate>2021-03-26T22:18:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
 			<Baseline>
