@@ -6,10 +6,10 @@
 	<GUID>2D4AF525-028D-EB11-9405-DBEDA1E199D0</GUID>
 	<Title>ProjetoCinefy</Title>
 	<CreationDate>2021-03-24T09:00:00</CreationDate>
-	<LastSaved>2021-03-26T21:26:00</LastSaved>
+	<LastSaved>2021-03-26T21:33:00</LastSaved>
 	<ScheduleFromStart>1</ScheduleFromStart>
 	<StartDate>2021-03-24T09:00:00</StartDate>
-	<FinishDate>2021-05-13T18:00:00</FinishDate>
+	<FinishDate>2021-05-13T09:00:00</FinishDate>
 	<FYStartDate>1</FYStartDate>
 	<CriticalSlackLimit>0</CriticalSlackLimit>
 	<CurrencyDigits>2</CurrencyDigits>
@@ -112,9 +112,11 @@
 		</Table>
 		<Table>
 			<Name>&amp;Uso</Name>
+			<IsCustomized>true</IsCustomized>
 		</Table>
 		<Table>
 			<Name>&amp;Entrada</Name>
+			<IsCustomized>true</IsCustomized>
 		</Table>
 	</Tables>
 	<Maps/>
@@ -408,14 +410,14 @@
 			<OutlineLevel>0</OutlineLevel>
 			<Priority>500</Priority>
 			<Start>2020-08-24T09:00:00</Start>
-			<Finish>2021-05-13T18:00:00</Finish>
-			<Duration>PT1512H0M0S</Duration>
+			<Finish>2021-05-13T09:00:00</Finish>
+			<Duration>PT1504H0M0S</Duration>
 			<ManualStart>2020-08-24T09:00:00</ManualStart>
-			<ManualFinish>2021-05-13T18:00:00</ManualFinish>
-			<ManualDuration>PT1512H0M0S</ManualDuration>
+			<ManualFinish>2021-05-13T09:00:00</ManualFinish>
+			<ManualDuration>PT1504H0M0S</ManualDuration>
 			<DurationFormat>21</DurationFormat>
 			<FreeformDurationFormat>7</FreeformDurationFormat>
-			<Work>PT984H0M0S</Work>
+			<Work>PT976H0M0S</Work>
 			<Stop>2020-08-24T18:00:00</Stop>
 			<Resume>2020-08-24T18:00:00</Resume>
 			<ResumeValid>0</ResumeValid>
@@ -431,12 +433,12 @@
 			<IsSubprojectReadOnly>0</IsSubprojectReadOnly>
 			<ExternalTask>0</ExternalTask>
 			<EarlyStart>2020-08-24T09:00:00</EarlyStart>
-			<EarlyFinish>2021-05-13T18:00:00</EarlyFinish>
+			<EarlyFinish>2021-05-13T09:00:00</EarlyFinish>
 			<LateStart>2020-08-24T09:00:00</LateStart>
-			<LateFinish>2021-05-13T18:00:00</LateFinish>
+			<LateFinish>2021-05-13T09:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
-			<FinishVariance>0</FinishVariance>
-			<WorkVariance>59040000.00</WorkVariance>
+			<FinishVariance>-4800</FinishVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -449,19 +451,19 @@
 			<OvertimeCost>0</OvertimeCost>
 			<OvertimeWork>PT0H0M0S</OvertimeWork>
 			<ActualStart>2020-08-24T09:00:00</ActualStart>
-			<ActualDuration>PT1279H57M36S</ActualDuration>
+			<ActualDuration>PT1279H31M18S</ActualDuration>
 			<ActualCost>731000</ActualCost>
 			<ActualOvertimeCost>0</ActualOvertimeCost>
 			<ActualWork>PT736H0M0S</ActualWork>
 			<ActualOvertimeWork>PT0H0M0S</ActualOvertimeWork>
-			<RegularWork>PT984H0M0S</RegularWork>
-			<RemainingDuration>PT232H2M24S</RemainingDuration>
+			<RegularWork>PT976H0M0S</RegularWork>
+			<RemainingDuration>PT224H28M42S</RemainingDuration>
 			<RemainingCost>546000</RemainingCost>
-			<RemainingWork>PT248H0M0S</RemainingWork>
+			<RemainingWork>PT240H0M0S</RemainingWork>
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>731000.00</ACWP>
-			<CV>-731000.00</CV>
+			<CV>-28000.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -471,8 +473,8 @@
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>731000.00</BCWS>
+			<BCWP>703000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<IsPublished>0</IsPublished>
@@ -494,7 +496,929 @@
 				<Start>2020-08-24T09:00:00</Start>
 				<Finish>2021-05-13T18:00:00</Finish>
 				<Duration>PT1512H0M0S</Duration>
+				<Work>PT976H0M0S</Work>
+				<Cost>1277000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-08-24T18:00:00</Start>
+				<Finish>2020-08-26T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT80H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-09-08T18:00:00</Start>
+				<Finish>2020-09-09T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-09-16T18:00:00</Start>
+				<Finish>2020-09-17T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-09-23T18:00:00</Start>
+				<Finish>2020-09-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-09-30T18:00:00</Start>
+				<Finish>2020-10-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-10-12T18:00:00</Start>
+				<Finish>2020-10-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-10-20T18:00:00</Start>
+				<Finish>2020-10-21T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-10-28T18:00:00</Start>
+				<Finish>2020-10-29T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT184H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-11-30T18:00:00</Start>
+				<Finish>2020-12-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-12-01T09:00:00</Start>
+				<Finish>2020-12-21T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-12-21T18:00:00</Start>
+				<Finish>2020-12-22T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2020-12-22T09:00:00</Start>
+				<Finish>2021-01-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-01-22T18:00:00</Start>
+				<Finish>2021-01-25T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-01-25T09:00:00</Start>
+				<Finish>2021-02-10T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-02-10T18:00:00</Start>
+				<Finish>2021-02-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-02-17T18:00:00</Start>
+				<Finish>2021-02-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-02-18T09:00:00</Start>
+				<Finish>2021-02-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-02-23T18:00:00</Start>
+				<Finish>2021-02-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-02-24T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-02-26T18:00:00</Start>
+				<Finish>2021-03-01T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-01T18:00:00</Start>
+				<Finish>2021-03-02T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-02T09:00:00</Start>
+				<Finish>2021-03-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-05T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-05T18:00:00</Start>
+				<Finish>2021-03-08T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-08T09:00:00</Start>
+				<Finish>2021-03-11T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-11T18:00:00</Start>
+				<Finish>2021-03-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-12T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-12T18:00:00</Start>
+				<Finish>2021-03-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-17T18:00:00</Start>
+				<Finish>2021-03-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-18T09:00:00</Start>
+				<Finish>2021-03-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-23T18:00:00</Start>
+				<Finish>2021-03-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-24T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-03-26T18:00:00</Start>
+				<Finish>2021-04-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-04-01T09:00:00</Start>
+				<Finish>2021-04-06T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-04-06T18:00:00</Start>
+				<Finish>2021-04-07T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-04-09T18:00:00</Start>
+				<Finish>2021-04-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-04-15T18:00:00</Start>
+				<Finish>2021-04-16T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-04-22T18:00:00</Start>
+				<Finish>2021-04-23T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-05-04T18:00:00</Start>
+				<Finish>2021-05-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>0</UID>
+				<Start>2021-05-12T18:00:00</Start>
+				<Finish>2021-05-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>7000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-08-24T18:00:00</Start>
+				<Finish>2020-08-26T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>70000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-09-08T18:00:00</Start>
+				<Finish>2020-09-09T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-09-16T18:00:00</Start>
+				<Finish>2020-09-17T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>35000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-09-23T18:00:00</Start>
+				<Finish>2020-09-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>35000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-09-30T18:00:00</Start>
+				<Finish>2020-10-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>56000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-10-12T18:00:00</Start>
+				<Finish>2020-10-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-10-20T18:00:00</Start>
+				<Finish>2020-10-21T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-10-28T18:00:00</Start>
+				<Finish>2020-10-29T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>23000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-11-30T18:00:00</Start>
+				<Finish>2020-12-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-12-01T09:00:00</Start>
+				<Finish>2020-12-21T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-12-21T18:00:00</Start>
+				<Finish>2020-12-22T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2020-12-22T09:00:00</Start>
+				<Finish>2021-01-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-01-22T18:00:00</Start>
+				<Finish>2021-01-25T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-01-25T09:00:00</Start>
+				<Finish>2021-02-10T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-02-10T18:00:00</Start>
+				<Finish>2021-02-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-02-17T18:00:00</Start>
+				<Finish>2021-02-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-02-18T09:00:00</Start>
+				<Finish>2021-02-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>7000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>48000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-02-23T18:00:00</Start>
+				<Finish>2021-02-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-02-24T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>48000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-02-26T18:00:00</Start>
+				<Finish>2021-03-01T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>7000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-01T18:00:00</Start>
+				<Finish>2021-03-02T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-02T09:00:00</Start>
+				<Finish>2021-03-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>21000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-05T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>16000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-05T18:00:00</Start>
+				<Finish>2021-03-08T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-08T09:00:00</Start>
+				<Finish>2021-03-11T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>64000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-11T18:00:00</Start>
+				<Finish>2021-03-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-12T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>16000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-12T18:00:00</Start>
+				<Finish>2021-03-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>21000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-17T18:00:00</Start>
+				<Finish>2021-03-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-18T09:00:00</Start>
+				<Finish>2021-03-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>7000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>48000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-23T18:00:00</Start>
+				<Finish>2021-03-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-24T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>48000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-03-26T18:00:00</Start>
+				<Finish>2021-04-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-04-01T09:00:00</Start>
+				<Finish>2021-04-06T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>36000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-04-06T18:00:00</Start>
+				<Finish>2021-04-07T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>30000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-04-09T18:00:00</Start>
+				<Finish>2021-04-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>80000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-04-15T18:00:00</Start>
+				<Finish>2021-04-16T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>100000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-04-22T18:00:00</Start>
+				<Finish>2021-04-23T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>160000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-05-04T18:00:00</Start>
+				<Finish>2021-05-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>140000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-05-12T18:00:00</Start>
+				<Finish>2021-05-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>0</UID>
+				<Start>2021-05-13T09:00:00</Start>
+				<Finish>2021-05-13T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>26</UID>
@@ -511,14 +1435,14 @@
 			<OutlineLevel>1</OutlineLevel>
 			<Priority>500</Priority>
 			<Start>2020-08-24T09:00:00</Start>
-			<Finish>2021-05-13T18:00:00</Finish>
-			<Duration>PT1512H0M0S</Duration>
+			<Finish>2021-05-13T09:00:00</Finish>
+			<Duration>PT1504H0M0S</Duration>
 			<ManualStart>2020-08-24T09:00:00</ManualStart>
-			<ManualFinish>2021-05-13T18:00:00</ManualFinish>
-			<ManualDuration>PT1512H0M0S</ManualDuration>
+			<ManualFinish>2021-05-13T09:00:00</ManualFinish>
+			<ManualDuration>PT1504H0M0S</ManualDuration>
 			<DurationFormat>21</DurationFormat>
 			<FreeformDurationFormat>21</FreeformDurationFormat>
-			<Work>PT984H0M0S</Work>
+			<Work>PT976H0M0S</Work>
 			<Stop>2020-08-24T18:00:00</Stop>
 			<Resume>2020-08-24T18:00:00</Resume>
 			<ResumeValid>0</ResumeValid>
@@ -534,12 +1458,12 @@
 			<IsSubprojectReadOnly>0</IsSubprojectReadOnly>
 			<ExternalTask>0</ExternalTask>
 			<EarlyStart>2020-08-24T09:00:00</EarlyStart>
-			<EarlyFinish>2021-05-13T18:00:00</EarlyFinish>
+			<EarlyFinish>2021-05-13T09:00:00</EarlyFinish>
 			<LateStart>2020-08-24T09:00:00</LateStart>
-			<LateFinish>2021-05-13T18:00:00</LateFinish>
+			<LateFinish>2021-05-13T09:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
-			<FinishVariance>0</FinishVariance>
-			<WorkVariance>59040000.00</WorkVariance>
+			<FinishVariance>-4800</FinishVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -552,19 +1476,19 @@
 			<OvertimeCost>0</OvertimeCost>
 			<OvertimeWork>PT0H0M0S</OvertimeWork>
 			<ActualStart>2020-08-24T09:00:00</ActualStart>
-			<ActualDuration>PT1279H57M36S</ActualDuration>
+			<ActualDuration>PT1279H31M18S</ActualDuration>
 			<ActualCost>731000</ActualCost>
 			<ActualOvertimeCost>0</ActualOvertimeCost>
 			<ActualWork>PT736H0M0S</ActualWork>
 			<ActualOvertimeWork>PT0H0M0S</ActualOvertimeWork>
-			<RegularWork>PT984H0M0S</RegularWork>
-			<RemainingDuration>PT232H2M24S</RemainingDuration>
+			<RegularWork>PT976H0M0S</RegularWork>
+			<RemainingDuration>PT224H28M42S</RemainingDuration>
 			<RemainingCost>546000</RemainingCost>
-			<RemainingWork>PT248H0M0S</RemainingWork>
+			<RemainingWork>PT240H0M0S</RemainingWork>
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>731000.00</ACWP>
-			<CV>-731000.00</CV>
+			<CV>-28000.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -574,8 +1498,8 @@
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>1</HideBar>
 			<Rollup>1</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>731000.00</BCWS>
+			<BCWP>703000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<IsPublished>0</IsPublished>
@@ -597,7 +1521,929 @@
 				<Start>2020-08-24T09:00:00</Start>
 				<Finish>2021-05-13T18:00:00</Finish>
 				<Duration>PT1512H0M0S</Duration>
+				<Work>PT976H0M0S</Work>
+				<Cost>1277000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-08-24T18:00:00</Start>
+				<Finish>2020-08-26T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT80H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-09-08T18:00:00</Start>
+				<Finish>2020-09-09T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-09-16T18:00:00</Start>
+				<Finish>2020-09-17T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-09-23T18:00:00</Start>
+				<Finish>2020-09-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-09-30T18:00:00</Start>
+				<Finish>2020-10-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-10-12T18:00:00</Start>
+				<Finish>2020-10-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-10-20T18:00:00</Start>
+				<Finish>2020-10-21T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-10-28T18:00:00</Start>
+				<Finish>2020-10-29T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT184H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-11-30T18:00:00</Start>
+				<Finish>2020-12-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-12-01T09:00:00</Start>
+				<Finish>2020-12-21T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-12-21T18:00:00</Start>
+				<Finish>2020-12-22T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2020-12-22T09:00:00</Start>
+				<Finish>2021-01-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-01-22T18:00:00</Start>
+				<Finish>2021-01-25T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-01-25T09:00:00</Start>
+				<Finish>2021-02-10T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-02-10T18:00:00</Start>
+				<Finish>2021-02-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-02-17T18:00:00</Start>
+				<Finish>2021-02-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-02-18T09:00:00</Start>
+				<Finish>2021-02-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-02-23T18:00:00</Start>
+				<Finish>2021-02-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-02-24T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-02-26T18:00:00</Start>
+				<Finish>2021-03-01T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-01T18:00:00</Start>
+				<Finish>2021-03-02T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-02T09:00:00</Start>
+				<Finish>2021-03-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-05T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-05T18:00:00</Start>
+				<Finish>2021-03-08T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-08T09:00:00</Start>
+				<Finish>2021-03-11T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-11T18:00:00</Start>
+				<Finish>2021-03-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-12T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-12T18:00:00</Start>
+				<Finish>2021-03-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-17T18:00:00</Start>
+				<Finish>2021-03-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-18T09:00:00</Start>
+				<Finish>2021-03-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-23T18:00:00</Start>
+				<Finish>2021-03-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-24T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-03-26T18:00:00</Start>
+				<Finish>2021-04-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-04-01T09:00:00</Start>
+				<Finish>2021-04-06T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-04-06T18:00:00</Start>
+				<Finish>2021-04-07T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-04-09T18:00:00</Start>
+				<Finish>2021-04-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-04-15T18:00:00</Start>
+				<Finish>2021-04-16T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-04-22T18:00:00</Start>
+				<Finish>2021-04-23T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-05-04T18:00:00</Start>
+				<Finish>2021-05-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>26</UID>
+				<Start>2021-05-12T18:00:00</Start>
+				<Finish>2021-05-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>7000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-08-24T18:00:00</Start>
+				<Finish>2020-08-26T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>70000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-09-08T18:00:00</Start>
+				<Finish>2020-09-09T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-09-16T18:00:00</Start>
+				<Finish>2020-09-17T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>35000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-09-23T18:00:00</Start>
+				<Finish>2020-09-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>35000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-09-30T18:00:00</Start>
+				<Finish>2020-10-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>56000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-10-12T18:00:00</Start>
+				<Finish>2020-10-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-10-20T18:00:00</Start>
+				<Finish>2020-10-21T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-10-28T18:00:00</Start>
+				<Finish>2020-10-29T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>23000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-11-30T18:00:00</Start>
+				<Finish>2020-12-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-12-01T09:00:00</Start>
+				<Finish>2020-12-21T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-12-21T18:00:00</Start>
+				<Finish>2020-12-22T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2020-12-22T09:00:00</Start>
+				<Finish>2021-01-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-01-22T18:00:00</Start>
+				<Finish>2021-01-25T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-01-25T09:00:00</Start>
+				<Finish>2021-02-10T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-02-10T18:00:00</Start>
+				<Finish>2021-02-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-02-17T18:00:00</Start>
+				<Finish>2021-02-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-02-18T09:00:00</Start>
+				<Finish>2021-02-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>7000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>48000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-02-23T18:00:00</Start>
+				<Finish>2021-02-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-02-24T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>48000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-02-26T18:00:00</Start>
+				<Finish>2021-03-01T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>7000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-01T18:00:00</Start>
+				<Finish>2021-03-02T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-02T09:00:00</Start>
+				<Finish>2021-03-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>21000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-05T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>16000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-05T18:00:00</Start>
+				<Finish>2021-03-08T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-08T09:00:00</Start>
+				<Finish>2021-03-11T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>64000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-11T18:00:00</Start>
+				<Finish>2021-03-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-12T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>16000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-12T18:00:00</Start>
+				<Finish>2021-03-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>21000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-17T18:00:00</Start>
+				<Finish>2021-03-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-18T09:00:00</Start>
+				<Finish>2021-03-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>7000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>48000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-23T18:00:00</Start>
+				<Finish>2021-03-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-24T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>48000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-03-26T18:00:00</Start>
+				<Finish>2021-04-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-04-01T09:00:00</Start>
+				<Finish>2021-04-06T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>36000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-04-06T18:00:00</Start>
+				<Finish>2021-04-07T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>30000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-04-09T18:00:00</Start>
+				<Finish>2021-04-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>80000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-04-15T18:00:00</Start>
+				<Finish>2021-04-16T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>100000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-04-22T18:00:00</Start>
+				<Finish>2021-04-23T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>160000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-05-04T18:00:00</Start>
+				<Finish>2021-05-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>140000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-05-12T18:00:00</Start>
+				<Finish>2021-05-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>26</UID>
+				<Start>2021-05-13T09:00:00</Start>
+				<Finish>2021-05-13T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>2</UID>
@@ -642,7 +2488,7 @@
 			<LateFinish>2020-12-01T09:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>33600000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -668,7 +2514,7 @@
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>352000.00</ACWP>
-			<CV>-352000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -678,8 +2524,8 @@
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>1</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>352000.00</BCWS>
+			<BCWP>352000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<IsPublished>0</IsPublished>
@@ -701,7 +2547,297 @@
 				<Start>2020-08-24T09:00:00</Start>
 				<Finish>2020-12-01T09:00:00</Finish>
 				<Duration>PT568H0M0S</Duration>
+				<Work>PT560H0M0S</Work>
+				<Cost>352000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-08-24T18:00:00</Start>
+				<Finish>2020-08-26T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT80H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-09-08T18:00:00</Start>
+				<Finish>2020-09-09T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-09-16T18:00:00</Start>
+				<Finish>2020-09-17T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-09-23T18:00:00</Start>
+				<Finish>2020-09-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-09-30T18:00:00</Start>
+				<Finish>2020-10-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-10-12T18:00:00</Start>
+				<Finish>2020-10-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-10-20T18:00:00</Start>
+				<Finish>2020-10-21T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-10-28T18:00:00</Start>
+				<Finish>2020-10-29T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT184H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>2</UID>
+				<Start>2020-11-30T18:00:00</Start>
+				<Finish>2020-12-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>7000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-08-24T18:00:00</Start>
+				<Finish>2020-08-26T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>70000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-09-08T18:00:00</Start>
+				<Finish>2020-09-09T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-09-16T18:00:00</Start>
+				<Finish>2020-09-17T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>35000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-09-23T18:00:00</Start>
+				<Finish>2020-09-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>35000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-09-30T18:00:00</Start>
+				<Finish>2020-10-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>56000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-10-12T18:00:00</Start>
+				<Finish>2020-10-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-10-20T18:00:00</Start>
+				<Finish>2020-10-21T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-10-28T18:00:00</Start>
+				<Finish>2020-10-29T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>23000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>2</UID>
+				<Start>2020-11-30T18:00:00</Start>
+				<Finish>2020-12-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>3</UID>
@@ -746,7 +2882,7 @@
 			<LateFinish>2020-08-24T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>480000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -772,7 +2908,7 @@
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>7000.00</ACWP>
-			<CV>-7000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -783,8 +2919,8 @@
 			<Notes>Foi definido o grupo e o Tema do projeto Cinefy</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>7000.00</BCWS>
+			<BCWP>7000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<IsPublished>1</IsPublished>
@@ -806,6 +2942,8 @@
 				<Start>2020-08-24T09:00:00</Start>
 				<Finish>2020-08-24T18:00:00</Finish>
 				<Duration>PT8H0M0S</Duration>
+				<Work>PT8H0M0S</Work>
+				<Cost>7000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -814,6 +2952,22 @@
 				<Finish>2020-08-24T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>100</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>3</UID>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>3</UID>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>7000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -859,7 +3013,7 @@
 			<LateFinish>2020-09-08T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>4800000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -885,7 +3039,7 @@
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>70000.00</ACWP>
-			<CV>-70000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -906,8 +3060,8 @@ Cronograma de marcos resumidos
 Orçamento Resumido</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>70000.00</BCWS>
+			<BCWP>70000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -936,6 +3090,8 @@ Orçamento Resumido</Notes>
 				<Start>2020-08-26T09:00:00</Start>
 				<Finish>2020-09-08T18:00:00</Finish>
 				<Duration>PT80H0M0S</Duration>
+				<Work>PT80H0M0S</Work>
+				<Cost>70000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -1049,6 +3205,22 @@ Orçamento Resumido</Notes>
 				<Unit>2</Unit>
 				<Value>10</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>4</UID>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT80H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>4</UID>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>70000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>5</UID>
@@ -1093,7 +3265,7 @@ Orçamento Resumido</Notes>
 			<LateFinish>2020-09-16T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -1119,7 +3291,7 @@ Orçamento Resumido</Notes>
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>42000.00</ACWP>
-			<CV>-42000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -1134,8 +3306,8 @@ Análise de filmes
 </Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>42000.00</BCWS>
+			<BCWP>42000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -1164,6 +3336,8 @@ Análise de filmes
 				<Start>2020-09-09T09:00:00</Start>
 				<Finish>2020-09-16T18:00:00</Finish>
 				<Duration>PT48H0M0S</Duration>
+				<Work>PT48H0M0S</Work>
+				<Cost>42000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -1229,6 +3403,22 @@ Análise de filmes
 				<Unit>2</Unit>
 				<Value>16.67</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>5</UID>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>5</UID>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>9</UID>
@@ -1273,7 +3463,7 @@ Análise de filmes
 			<LateFinish>2020-09-23T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2400000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -1299,7 +3489,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>35000.00</ACWP>
-			<CV>-35000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -1322,8 +3512,8 @@ Análise de filmes
 2.6.3 Regras de negócio</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>35000.00</BCWS>
+			<BCWP>35000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -1352,6 +3542,8 @@ Análise de filmes
 				<Start>2020-09-17T09:00:00</Start>
 				<Finish>2020-09-23T18:00:00</Finish>
 				<Duration>PT40H0M0S</Duration>
+				<Work>PT40H0M0S</Work>
+				<Cost>35000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -1409,6 +3601,22 @@ Análise de filmes
 				<Unit>2</Unit>
 				<Value>20</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>9</UID>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>9</UID>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>35000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>8</UID>
@@ -1453,7 +3661,7 @@ Análise de filmes
 			<LateFinish>2020-09-30T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2400000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -1479,7 +3687,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>35000.00</ACWP>
-			<CV>-35000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -1502,8 +3710,8 @@ Análise de filmes
 </Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>35000.00</BCWS>
+			<BCWP>35000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -1532,6 +3740,8 @@ Análise de filmes
 				<Start>2020-09-24T09:00:00</Start>
 				<Finish>2020-09-30T18:00:00</Finish>
 				<Duration>PT40H0M0S</Duration>
+				<Work>PT40H0M0S</Work>
+				<Cost>35000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -1588,6 +3798,22 @@ Análise de filmes
 				<Finish>2020-09-30T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>20</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>8</UID>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>8</UID>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>35000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -1751,7 +3977,7 @@ Análise de filmes
 			<LateFinish>2020-11-30T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>20640000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -1777,7 +4003,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>163000.00</ACWP>
-			<CV>-163000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -1788,8 +4014,8 @@ Análise de filmes
 			<Notes>Inicio da diagramação dos documentos de UML</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>1</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>163000.00</BCWS>
+			<BCWP>163000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<IsPublished>0</IsPublished>
@@ -1811,7 +4037,121 @@ Análise de filmes
 				<Start>2020-10-01T09:00:00</Start>
 				<Finish>2020-11-30T18:00:00</Finish>
 				<Duration>PT344H0M0S</Duration>
+				<Work>PT344H0M0S</Work>
+				<Cost>163000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>12</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>12</UID>
+				<Start>2020-10-12T18:00:00</Start>
+				<Finish>2020-10-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>12</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>12</UID>
+				<Start>2020-10-20T18:00:00</Start>
+				<Finish>2020-10-21T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>12</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>12</UID>
+				<Start>2020-10-28T18:00:00</Start>
+				<Finish>2020-10-29T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>12</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT184H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>12</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>56000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>12</UID>
+				<Start>2020-10-12T18:00:00</Start>
+				<Finish>2020-10-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>12</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>12</UID>
+				<Start>2020-10-20T18:00:00</Start>
+				<Finish>2020-10-21T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>12</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>12</UID>
+				<Start>2020-10-28T18:00:00</Start>
+				<Finish>2020-10-29T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>12</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>23000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>13</UID>
@@ -1856,7 +4196,7 @@ Análise de filmes
 			<LateFinish>2020-10-12T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>3840000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -1882,7 +4222,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>56000.00</ACWP>
-			<CV>-56000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -1893,8 +4233,8 @@ Análise de filmes
 			<Notes>Foi definido e diagramado o caso de uso geral do sistema Cinefy</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>56000.00</BCWS>
+			<BCWP>56000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -1923,6 +4263,8 @@ Análise de filmes
 				<Start>2020-10-01T09:00:00</Start>
 				<Finish>2020-10-12T18:00:00</Finish>
 				<Duration>PT64H0M0S</Duration>
+				<Work>PT64H0M0S</Work>
+				<Cost>56000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -2020,6 +4362,22 @@ Análise de filmes
 				<Unit>2</Unit>
 				<Value>12.5</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>13</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>13</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>56000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>14</UID>
@@ -2064,7 +4422,7 @@ Análise de filmes
 			<LateFinish>2020-10-20T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -2090,7 +4448,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>42000.00</ACWP>
-			<CV>-42000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -2101,8 +4459,8 @@ Análise de filmes
 			<Notes>Foi especificado cada necessidade dos módulos presente no sistema</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>42000.00</BCWS>
+			<BCWP>42000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -2131,6 +4489,8 @@ Análise de filmes
 				<Start>2020-10-13T09:00:00</Start>
 				<Finish>2020-10-20T18:00:00</Finish>
 				<Duration>PT48H0M0S</Duration>
+				<Work>PT48H0M0S</Work>
+				<Cost>42000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -2196,6 +4556,22 @@ Análise de filmes
 				<Unit>2</Unit>
 				<Value>16.67</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>14</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>14</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>15</UID>
@@ -2240,7 +4616,7 @@ Análise de filmes
 			<LateFinish>2020-10-28T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -2266,7 +4642,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>42000.00</ACWP>
-			<CV>-42000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -2277,8 +4653,8 @@ Análise de filmes
 			<Notes>Foi especificado as classes de domínio do sistema</Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>42000.00</BCWS>
+			<BCWP>42000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -2307,6 +4683,8 @@ Análise de filmes
 				<Start>2020-10-21T09:00:00</Start>
 				<Finish>2020-10-28T18:00:00</Finish>
 				<Duration>PT48H0M0S</Duration>
+				<Work>PT48H0M0S</Work>
+				<Cost>42000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -2372,6 +4750,22 @@ Análise de filmes
 				<Unit>2</Unit>
 				<Value>16.67</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>15</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>15</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>42000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>19</UID>
@@ -2416,7 +4810,7 @@ Análise de filmes
 			<LateFinish>2020-11-30T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>11040000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -2442,7 +4836,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>23000.00</ACWP>
-			<CV>-23000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -2454,8 +4848,8 @@ Análise de filmes
 </Notes>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>23000.00</BCWS>
+			<BCWP>23000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -2484,6 +4878,8 @@ Análise de filmes
 				<Start>2020-10-29T09:00:00</Start>
 				<Finish>2020-11-30T18:00:00</Finish>
 				<Duration>PT184H0M0S</Duration>
+				<Work>PT184H0M0S</Work>
+				<Cost>23000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -2748,6 +5144,22 @@ Análise de filmes
 				<Finish>2020-11-30T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>4.35</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>19</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT184H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>19</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>23000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -3999,7 +6411,7 @@ Análise de filmes
 			<LateFinish>2021-03-26T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>1920000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -4025,7 +6437,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>217000.00</ACWP>
-			<CV>-217000.00</CV>
+			<CV>-28000.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -4035,8 +6447,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>1</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>217000.00</BCWS>
+			<BCWP>189000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -4069,7 +6481,241 @@ Análise de filmes
 				<Start>2021-02-11T09:00:00</Start>
 				<Finish>2021-03-26T18:00:00</Finish>
 				<Duration>PT256H0M0S</Duration>
+				<Work>PT32H0M0S</Work>
+				<Cost>217000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-02-17T18:00:00</Start>
+				<Finish>2021-02-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-02-18T09:00:00</Start>
+				<Finish>2021-02-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-02-23T18:00:00</Start>
+				<Finish>2021-02-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-02-24T09:00:00</Start>
+				<Finish>2021-03-01T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-03-01T18:00:00</Start>
+				<Finish>2021-03-02T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-03-02T09:00:00</Start>
+				<Finish>2021-03-05T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-03-05T18:00:00</Start>
+				<Finish>2021-03-08T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-03-08T09:00:00</Start>
+				<Finish>2021-03-11T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-03-11T18:00:00</Start>
+				<Finish>2021-03-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-03-12T09:00:00</Start>
+				<Finish>2021-03-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-03-17T18:00:00</Start>
+				<Finish>2021-03-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-03-18T09:00:00</Start>
+				<Finish>2021-03-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>27</UID>
+				<Start>2021-03-23T18:00:00</Start>
+				<Finish>2021-03-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-02-17T18:00:00</Start>
+				<Finish>2021-02-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-02-18T09:00:00</Start>
+				<Finish>2021-02-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-02-23T18:00:00</Start>
+				<Finish>2021-02-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-02-24T09:00:00</Start>
+				<Finish>2021-03-01T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-03-01T18:00:00</Start>
+				<Finish>2021-03-02T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-03-02T09:00:00</Start>
+				<Finish>2021-03-05T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-03-05T18:00:00</Start>
+				<Finish>2021-03-08T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-03-08T09:00:00</Start>
+				<Finish>2021-03-11T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-03-11T18:00:00</Start>
+				<Finish>2021-03-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-03-12T09:00:00</Start>
+				<Finish>2021-03-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-03-17T18:00:00</Start>
+				<Finish>2021-03-18T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-03-18T09:00:00</Start>
+				<Finish>2021-03-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-03-23T18:00:00</Start>
+				<Finish>2021-03-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>27</UID>
+				<Start>2021-03-24T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>21000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>28</UID>
@@ -4114,7 +6760,7 @@ Análise de filmes
 			<LateFinish>2021-02-17T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>1920000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -4151,7 +6797,7 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
+			<BCWS>28000.00</BCWS>
 			<BCWP>0.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>1</EarnedValueMethod>
@@ -4174,6 +6820,8 @@ Análise de filmes
 				<Start>2021-02-12T09:00:00</Start>
 				<Finish>2021-02-17T18:00:00</Finish>
 				<Duration>PT32H0M0S</Duration>
+				<Work>PT32H0M0S</Work>
+				<Cost>28000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -4222,6 +6870,22 @@ Análise de filmes
 				<Finish>2021-02-17T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>25</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>28</UID>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>28</UID>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -4293,7 +6957,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>28000.00</ACWP>
-			<CV>-28000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -4303,8 +6967,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>28000.00</BCWS>
+			<BCWP>28000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -4333,6 +6997,7 @@ Análise de filmes
 				<Start>2021-02-18T09:00:00</Start>
 				<Finish>2021-02-23T18:00:00</Finish>
 				<Duration>PT32H0M0S</Duration>
+				<Cost>28000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -4381,6 +7046,14 @@ Análise de filmes
 				<Finish>2021-02-23T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>25</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>29</UID>
+				<Start>2021-02-18T09:00:00</Start>
+				<Finish>2021-02-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -4452,7 +7125,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>28000.00</ACWP>
-			<CV>-28000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -4462,8 +7135,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>28000.00</BCWS>
+			<BCWP>28000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -4492,6 +7165,7 @@ Análise de filmes
 				<Start>2021-02-24T09:00:00</Start>
 				<Finish>2021-03-01T18:00:00</Finish>
 				<Duration>PT32H0M0S</Duration>
+				<Cost>28000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -4540,6 +7214,14 @@ Análise de filmes
 				<Finish>2021-03-01T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>25</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>30</UID>
+				<Start>2021-02-24T09:00:00</Start>
+				<Finish>2021-03-01T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -4611,7 +7293,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>28000.00</ACWP>
-			<CV>-28000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -4621,8 +7303,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>28000.00</BCWS>
+			<BCWP>28000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -4651,6 +7333,7 @@ Análise de filmes
 				<Start>2021-03-02T09:00:00</Start>
 				<Finish>2021-03-05T18:00:00</Finish>
 				<Duration>PT32H0M0S</Duration>
+				<Cost>28000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -4683,6 +7366,14 @@ Análise de filmes
 				<Finish>2021-03-05T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>25</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>31</UID>
+				<Start>2021-03-02T09:00:00</Start>
+				<Finish>2021-03-05T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -4754,7 +7445,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>28000.00</ACWP>
-			<CV>-28000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -4764,8 +7455,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>28000.00</BCWS>
+			<BCWP>28000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -4794,6 +7485,7 @@ Análise de filmes
 				<Start>2021-03-08T09:00:00</Start>
 				<Finish>2021-03-11T18:00:00</Finish>
 				<Duration>PT32H0M0S</Duration>
+				<Cost>28000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -4826,6 +7518,14 @@ Análise de filmes
 				<Finish>2021-03-11T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>25</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>32</UID>
+				<Start>2021-03-08T09:00:00</Start>
+				<Finish>2021-03-11T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -4897,7 +7597,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>28000.00</ACWP>
-			<CV>-28000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -4907,8 +7607,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>28000.00</BCWS>
+			<BCWP>28000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -4937,6 +7637,7 @@ Análise de filmes
 				<Start>2021-03-12T09:00:00</Start>
 				<Finish>2021-03-17T18:00:00</Finish>
 				<Duration>PT32H0M0S</Duration>
+				<Cost>28000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -4985,6 +7686,14 @@ Análise de filmes
 				<Finish>2021-03-17T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>25</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>33</UID>
+				<Start>2021-03-12T09:00:00</Start>
+				<Finish>2021-03-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -5056,7 +7765,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>28000.00</ACWP>
-			<CV>-28000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -5066,8 +7775,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>28000.00</BCWS>
+			<BCWP>28000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -5096,6 +7805,7 @@ Análise de filmes
 				<Start>2021-03-18T09:00:00</Start>
 				<Finish>2021-03-23T18:00:00</Finish>
 				<Duration>PT32H0M0S</Duration>
+				<Cost>28000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -5144,6 +7854,14 @@ Análise de filmes
 				<Finish>2021-03-23T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>25</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>34</UID>
+				<Start>2021-03-18T09:00:00</Start>
+				<Finish>2021-03-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>28000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -5215,7 +7933,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>21000.00</ACWP>
-			<CV>-21000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -5225,8 +7943,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>21000.00</BCWS>
+			<BCWP>21000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -5255,6 +7973,7 @@ Análise de filmes
 				<Start>2021-03-24T09:00:00</Start>
 				<Finish>2021-03-26T18:00:00</Finish>
 				<Duration>PT24H0M0S</Duration>
+				<Cost>21000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -5279,6 +7998,14 @@ Análise de filmes
 				<Finish>2021-03-26T18:00:00</Finish>
 				<Unit>2</Unit>
 				<Value>33.33</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>35</UID>
+				<Start>2021-03-24T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>21000</Value>
 			</TimephasedData>
 		</Task>
 		<Task>
@@ -5324,7 +8051,7 @@ Análise de filmes
 			<LateFinish>2021-03-26T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>8640000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -5350,7 +8077,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>162000.00</ACWP>
-			<CV>-162000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -5360,8 +8087,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>1</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>162000.00</BCWS>
+			<BCWP>162000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<IsPublished>0</IsPublished>
@@ -5383,7 +8110,89 @@ Análise de filmes
 				<Start>2021-02-19T09:00:00</Start>
 				<Finish>2021-03-26T18:00:00</Finish>
 				<Duration>PT208H0M0S</Duration>
+				<Work>PT144H0M0S</Work>
+				<Cost>162000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>39</UID>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>39</UID>
+				<Start>2021-02-26T18:00:00</Start>
+				<Finish>2021-03-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>39</UID>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>39</UID>
+				<Start>2021-03-12T18:00:00</Start>
+				<Finish>2021-03-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>39</UID>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>39</UID>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>54000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>39</UID>
+				<Start>2021-02-26T18:00:00</Start>
+				<Finish>2021-03-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>39</UID>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>54000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>39</UID>
+				<Start>2021-03-12T18:00:00</Start>
+				<Finish>2021-03-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>39</UID>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>54000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>36</UID>
@@ -5428,7 +8237,7 @@ Análise de filmes
 			<LateFinish>2021-02-26T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -5454,7 +8263,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>54000.00</ACWP>
-			<CV>-54000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -5464,8 +8273,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>54000.00</BCWS>
+			<BCWP>54000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<IsPublished>1</IsPublished>
@@ -5487,6 +8296,8 @@ Análise de filmes
 				<Start>2021-02-19T09:00:00</Start>
 				<Finish>2021-02-26T18:00:00</Finish>
 				<Duration>PT48H0M0S</Duration>
+				<Work>PT48H0M0S</Work>
+				<Cost>54000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -5552,6 +8363,22 @@ Análise de filmes
 				<Unit>2</Unit>
 				<Value>16.67</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>36</UID>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>36</UID>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>54000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>37</UID>
@@ -5596,7 +8423,7 @@ Análise de filmes
 			<LateFinish>2021-03-12T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -5622,7 +8449,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>54000.00</ACWP>
-			<CV>-54000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -5632,8 +8459,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>54000.00</BCWS>
+			<BCWP>54000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -5662,6 +8489,8 @@ Análise de filmes
 				<Start>2021-03-05T09:00:00</Start>
 				<Finish>2021-03-12T18:00:00</Finish>
 				<Duration>PT48H0M0S</Duration>
+				<Work>PT48H0M0S</Work>
+				<Cost>54000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -5727,6 +8556,22 @@ Análise de filmes
 				<Unit>2</Unit>
 				<Value>16.67</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>37</UID>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>37</UID>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>54000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>38</UID>
@@ -5771,7 +8616,7 @@ Análise de filmes
 			<LateFinish>2021-03-26T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -5797,7 +8642,7 @@ Análise de filmes
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>54000.00</ACWP>
-			<CV>-54000.00</CV>
+			<CV>0.00</CV>
 			<ConstraintType>0</ConstraintType>
 			<CalendarUID>-1</CalendarUID>
 			<LevelAssignments>1</LevelAssignments>
@@ -5807,8 +8652,8 @@ Análise de filmes
 			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
 			<HideBar>0</HideBar>
 			<Rollup>0</Rollup>
-			<BCWS>0.00</BCWS>
-			<BCWP>0.00</BCWP>
+			<BCWS>54000.00</BCWS>
+			<BCWP>54000.00</BCWP>
 			<PhysicalPercentComplete>0</PhysicalPercentComplete>
 			<EarnedValueMethod>0</EarnedValueMethod>
 			<PredecessorLink>
@@ -5837,6 +8682,8 @@ Análise de filmes
 				<Start>2021-03-19T09:00:00</Start>
 				<Finish>2021-03-26T18:00:00</Finish>
 				<Duration>PT48H0M0S</Duration>
+				<Work>PT48H0M0S</Work>
+				<Cost>54000</Cost>
 			</Baseline>
 			<TimephasedData>
 				<Type>11</Type>
@@ -5902,6 +8749,22 @@ Análise de filmes
 				<Unit>2</Unit>
 				<Value>16.67</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>38</UID>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>38</UID>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>54000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>40</UID>
@@ -5944,7 +8807,7 @@ Análise de filmes
 			<LateFinish>2021-04-07T09:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>1920000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -6001,7 +8864,25 @@ Análise de filmes
 				<Start>2021-04-01T09:00:00</Start>
 				<Finish>2021-04-06T18:00:00</Finish>
 				<Duration>PT32H0M0S</Duration>
+				<Work>PT32H0M0S</Work>
+				<Cost>36000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>40</UID>
+				<Start>2021-04-01T09:00:00</Start>
+				<Finish>2021-04-06T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>40</UID>
+				<Start>2021-04-01T09:00:00</Start>
+				<Finish>2021-04-06T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>36000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>41</UID>
@@ -6040,15 +8921,15 @@ Análise de filmes
 			<ExternalTask>0</ExternalTask>
 			<EarlyStart>2021-04-21T09:00:00</EarlyStart>
 			<EarlyFinish>2021-04-21T09:00:00</EarlyFinish>
-			<LateStart>2021-05-13T18:00:00</LateStart>
-			<LateFinish>2021-05-13T18:00:00</LateFinish>
+			<LateStart>2021-05-13T09:00:00</LateStart>
+			<LateFinish>2021-05-13T09:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
 			<WorkVariance>0.00</WorkVariance>
-			<FreeSlack>81600</FreeSlack>
-			<TotalSlack>81600</TotalSlack>
-			<StartSlack>81600</StartSlack>
-			<FinishSlack>81600</FinishSlack>
+			<FreeSlack>76800</FreeSlack>
+			<TotalSlack>76800</TotalSlack>
+			<StartSlack>76800</StartSlack>
+			<FinishSlack>76800</FinishSlack>
 			<FixedCost>0</FixedCost>
 			<FixedCostAccrual>3</FixedCostAccrual>
 			<PercentComplete>0</PercentComplete>
@@ -6117,14 +8998,14 @@ Análise de filmes
 			<OutlineLevel>2</OutlineLevel>
 			<Priority>500</Priority>
 			<Start>2021-04-07T09:00:00</Start>
-			<Finish>2021-05-13T18:00:00</Finish>
-			<Duration>PT216H0M0S</Duration>
+			<Finish>2021-05-12T18:00:00</Finish>
+			<Duration>PT208H0M0S</Duration>
 			<ManualStart>2021-04-07T09:00:00</ManualStart>
-			<ManualFinish>2021-05-13T18:00:00</ManualFinish>
-			<ManualDuration>PT216H0M0S</ManualDuration>
+			<ManualFinish>2021-05-12T18:00:00</ManualFinish>
+			<ManualDuration>PT208H0M0S</ManualDuration>
 			<DurationFormat>21</DurationFormat>
 			<FreeformDurationFormat>21</FreeformDurationFormat>
-			<Work>PT216H0M0S</Work>
+			<Work>PT208H0M0S</Work>
 			<ResumeValid>0</ResumeValid>
 			<EffortDriven>0</EffortDriven>
 			<Recurring>0</Recurring>
@@ -6138,12 +9019,12 @@ Análise de filmes
 			<IsSubprojectReadOnly>0</IsSubprojectReadOnly>
 			<ExternalTask>0</ExternalTask>
 			<EarlyStart>2021-04-07T09:00:00</EarlyStart>
-			<EarlyFinish>2021-05-13T18:00:00</EarlyFinish>
+			<EarlyFinish>2021-05-12T18:00:00</EarlyFinish>
 			<LateStart>2021-04-07T09:00:00</LateStart>
-			<LateFinish>2021-05-13T18:00:00</LateFinish>
+			<LateFinish>2021-05-12T18:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>12960000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -6160,10 +9041,10 @@ Análise de filmes
 			<ActualOvertimeCost>0</ActualOvertimeCost>
 			<ActualWork>PT0H0M0S</ActualWork>
 			<ActualOvertimeWork>PT0H0M0S</ActualOvertimeWork>
-			<RegularWork>PT216H0M0S</RegularWork>
-			<RemainingDuration>PT216H0M0S</RemainingDuration>
+			<RegularWork>PT208H0M0S</RegularWork>
+			<RemainingDuration>PT208H0M0S</RemainingDuration>
 			<RemainingCost>510000</RemainingCost>
-			<RemainingWork>PT216H0M0S</RemainingWork>
+			<RemainingWork>PT208H0M0S</RemainingWork>
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>0.00</ACWP>
@@ -6205,9 +9086,155 @@ Análise de filmes
 			<Baseline>
 				<Number>0</Number>
 				<Start>2021-04-07T09:00:00</Start>
-				<Finish>2021-05-13T18:00:00</Finish>
-				<Duration>PT216H0M0S</Duration>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Duration>PT208H0M0S</Duration>
+				<Work>PT208H0M0S</Work>
+				<Cost>510000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>43</UID>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>43</UID>
+				<Start>2021-04-09T18:00:00</Start>
+				<Finish>2021-04-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>43</UID>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>43</UID>
+				<Start>2021-04-15T18:00:00</Start>
+				<Finish>2021-04-16T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>43</UID>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>43</UID>
+				<Start>2021-04-22T18:00:00</Start>
+				<Finish>2021-04-23T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>43</UID>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>43</UID>
+				<Start>2021-05-04T18:00:00</Start>
+				<Finish>2021-05-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>43</UID>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>43</UID>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>30000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>43</UID>
+				<Start>2021-04-09T18:00:00</Start>
+				<Finish>2021-04-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>43</UID>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>80000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>43</UID>
+				<Start>2021-04-15T18:00:00</Start>
+				<Finish>2021-04-16T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>43</UID>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>100000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>43</UID>
+				<Start>2021-04-22T18:00:00</Start>
+				<Finish>2021-04-23T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>43</UID>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>160000</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>43</UID>
+				<Start>2021-05-04T18:00:00</Start>
+				<Finish>2021-05-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>0</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>43</UID>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>140000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>44</UID>
@@ -6250,7 +9277,7 @@ Análise de filmes
 			<LateFinish>2021-04-12T09:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>1440000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -6307,7 +9334,25 @@ Análise de filmes
 				<Start>2021-04-07T09:00:00</Start>
 				<Finish>2021-04-09T18:00:00</Finish>
 				<Duration>PT24H0M0S</Duration>
+				<Work>PT24H0M0S</Work>
+				<Cost>30000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>44</UID>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>44</UID>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>30000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>45</UID>
@@ -6350,7 +9395,7 @@ Análise de filmes
 			<LateFinish>2021-04-16T09:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>1920000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -6414,7 +9459,25 @@ Análise de filmes
 				<Start>2021-04-12T09:00:00</Start>
 				<Finish>2021-04-15T18:00:00</Finish>
 				<Duration>PT32H0M0S</Duration>
+				<Work>PT32H0M0S</Work>
+				<Cost>80000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>45</UID>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>45</UID>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>80000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>46</UID>
@@ -6457,7 +9520,7 @@ Análise de filmes
 			<LateFinish>2021-04-23T09:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2400000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -6521,7 +9584,25 @@ Análise de filmes
 				<Start>2021-04-16T09:00:00</Start>
 				<Finish>2021-04-22T18:00:00</Finish>
 				<Duration>PT40H0M0S</Duration>
+				<Work>PT40H0M0S</Work>
+				<Cost>100000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>46</UID>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>46</UID>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>100000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>47</UID>
@@ -6564,7 +9645,7 @@ Análise de filmes
 			<LateFinish>2021-05-05T09:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>3840000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -6628,7 +9709,25 @@ Análise de filmes
 				<Start>2021-04-23T09:00:00</Start>
 				<Finish>2021-05-04T18:00:00</Finish>
 				<Duration>PT64H0M0S</Duration>
+				<Work>PT64H0M0S</Work>
+				<Cost>160000</Cost>
 			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>47</UID>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>47</UID>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>160000</Value>
+			</TimephasedData>
 		</Task>
 		<Task>
 			<UID>48</UID>
@@ -6645,14 +9744,14 @@ Análise de filmes
 			<OutlineLevel>3</OutlineLevel>
 			<Priority>500</Priority>
 			<Start>2021-05-05T09:00:00</Start>
-			<Finish>2021-05-13T18:00:00</Finish>
-			<Duration>PT56H0M0S</Duration>
+			<Finish>2021-05-12T18:00:00</Finish>
+			<Duration>PT48H0M0S</Duration>
 			<ManualStart>2021-05-05T09:00:00</ManualStart>
-			<ManualFinish>2021-05-13T18:00:00</ManualFinish>
-			<ManualDuration>PT56H0M0S</ManualDuration>
+			<ManualFinish>2021-05-12T18:00:00</ManualFinish>
+			<ManualDuration>PT48H0M0S</ManualDuration>
 			<DurationFormat>21</DurationFormat>
 			<FreeformDurationFormat>21</FreeformDurationFormat>
-			<Work>PT56H0M0S</Work>
+			<Work>PT48H0M0S</Work>
 			<ResumeValid>0</ResumeValid>
 			<EffortDriven>0</EffortDriven>
 			<Recurring>0</Recurring>
@@ -6666,12 +9765,12 @@ Análise de filmes
 			<IsSubprojectReadOnly>0</IsSubprojectReadOnly>
 			<ExternalTask>0</ExternalTask>
 			<EarlyStart>2021-05-05T09:00:00</EarlyStart>
-			<EarlyFinish>2021-05-13T18:00:00</EarlyFinish>
+			<EarlyFinish>2021-05-12T18:00:00</EarlyFinish>
 			<LateStart>2021-05-05T09:00:00</LateStart>
-			<LateFinish>2021-05-13T18:00:00</LateFinish>
+			<LateFinish>2021-05-13T09:00:00</LateFinish>
 			<StartVariance>0</StartVariance>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>3360000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<FreeSlack>0</FreeSlack>
 			<TotalSlack>0</TotalSlack>
 			<StartSlack>0</StartSlack>
@@ -6688,10 +9787,10 @@ Análise de filmes
 			<ActualOvertimeCost>0</ActualOvertimeCost>
 			<ActualWork>PT0H0M0S</ActualWork>
 			<ActualOvertimeWork>PT0H0M0S</ActualOvertimeWork>
-			<RegularWork>PT56H0M0S</RegularWork>
-			<RemainingDuration>PT56H0M0S</RemainingDuration>
+			<RegularWork>PT48H0M0S</RegularWork>
+			<RemainingDuration>PT48H0M0S</RemainingDuration>
 			<RemainingCost>140000</RemainingCost>
-			<RemainingWork>PT56H0M0S</RemainingWork>
+			<RemainingWork>PT48H0M0S</RemainingWork>
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<ACWP>0.00</ACWP>
@@ -6733,8 +9832,125 @@ Análise de filmes
 			<Baseline>
 				<Number>0</Number>
 				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Duration>PT48H0M0S</Duration>
+				<Work>PT48H0M0S</Work>
+				<Cost>140000</Cost>
+			</Baseline>
+			<TimephasedData>
+				<Type>9</Type>
+				<UID>48</UID>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>10</Type>
+				<UID>48</UID>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>140000</Value>
+			</TimephasedData>
+		</Task>
+		<Task>
+			<UID>50</UID>
+			<GUID>D496BAA7-938E-EB11-9407-B68AB777E03D</GUID>
+			<ID>41</ID>
+			<Name>Entrega do Projeto parte 1</Name>
+			<Active>1</Active>
+			<Manual>1</Manual>
+			<Type>0</Type>
+			<IsNull>0</IsNull>
+			<CreateDate>2021-03-26T21:30:00</CreateDate>
+			<WBS>1.8</WBS>
+			<OutlineNumber>1.8</OutlineNumber>
+			<OutlineLevel>2</OutlineLevel>
+			<Priority>500</Priority>
+			<Start>2021-05-13T09:00:00</Start>
+			<Finish>2021-05-13T09:00:00</Finish>
+			<Duration>PT0H0M0S</Duration>
+			<ManualStart>2021-05-13T09:00:00</ManualStart>
+			<ManualFinish>2021-05-13T09:00:00</ManualFinish>
+			<ManualDuration>PT0H0M0S</ManualDuration>
+			<DurationFormat>7</DurationFormat>
+			<FreeformDurationFormat>7</FreeformDurationFormat>
+			<Work>PT0H0M0S</Work>
+			<ResumeValid>0</ResumeValid>
+			<EffortDriven>0</EffortDriven>
+			<Recurring>0</Recurring>
+			<OverAllocated>0</OverAllocated>
+			<Estimated>0</Estimated>
+			<Milestone>1</Milestone>
+			<Summary>0</Summary>
+			<DisplayAsSummary>0</DisplayAsSummary>
+			<Critical>1</Critical>
+			<IsSubproject>0</IsSubproject>
+			<IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+			<ExternalTask>0</ExternalTask>
+			<EarlyStart>2021-05-13T09:00:00</EarlyStart>
+			<EarlyFinish>2021-05-13T09:00:00</EarlyFinish>
+			<LateStart>2021-05-13T09:00:00</LateStart>
+			<LateFinish>2021-05-13T09:00:00</LateFinish>
+			<StartVariance>0</StartVariance>
+			<FinishVariance>-4800</FinishVariance>
+			<WorkVariance>0.00</WorkVariance>
+			<FreeSlack>0</FreeSlack>
+			<TotalSlack>0</TotalSlack>
+			<StartSlack>0</StartSlack>
+			<FinishSlack>0</FinishSlack>
+			<FixedCost>0</FixedCost>
+			<FixedCostAccrual>3</FixedCostAccrual>
+			<PercentComplete>0</PercentComplete>
+			<PercentWorkComplete>0</PercentWorkComplete>
+			<Cost>0</Cost>
+			<OvertimeCost>0</OvertimeCost>
+			<OvertimeWork>PT0H0M0S</OvertimeWork>
+			<ActualDuration>PT0H0M0S</ActualDuration>
+			<ActualCost>0</ActualCost>
+			<ActualOvertimeCost>0</ActualOvertimeCost>
+			<ActualWork>PT0H0M0S</ActualWork>
+			<ActualOvertimeWork>PT0H0M0S</ActualOvertimeWork>
+			<RegularWork>PT0H0M0S</RegularWork>
+			<RemainingDuration>PT0H0M0S</RemainingDuration>
+			<RemainingCost>0</RemainingCost>
+			<RemainingWork>PT0H0M0S</RemainingWork>
+			<RemainingOvertimeCost>0</RemainingOvertimeCost>
+			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
+			<ACWP>0.00</ACWP>
+			<CV>-0.00</CV>
+			<ConstraintType>0</ConstraintType>
+			<CalendarUID>-1</CalendarUID>
+			<LevelAssignments>1</LevelAssignments>
+			<LevelingCanSplit>1</LevelingCanSplit>
+			<LevelingDelay>0</LevelingDelay>
+			<LevelingDelayFormat>8</LevelingDelayFormat>
+			<IgnoreResourceCalendar>0</IgnoreResourceCalendar>
+			<HideBar>0</HideBar>
+			<Rollup>0</Rollup>
+			<BCWS>0.00</BCWS>
+			<BCWP>-0.00</BCWP>
+			<PhysicalPercentComplete>0</PhysicalPercentComplete>
+			<EarnedValueMethod>0</EarnedValueMethod>
+			<PredecessorLink>
+				<PredecessorUID>48</PredecessorUID>
+				<Type>1</Type>
+				<CrossProject>0</CrossProject>
+				<LinkLag>0</LinkLag>
+				<LagFormat>7</LagFormat>
+			</PredecessorLink>
+			<IsPublished>1</IsPublished>
+			<CommitmentType>0</CommitmentType>
+			<ExtendedAttribute>
+				<FieldID>188743731</FieldID>
+				<Value> 100%</Value>
+			</ExtendedAttribute>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-05-13T09:00:00</Start>
 				<Finish>2021-05-13T18:00:00</Finish>
-				<Duration>PT56H0M0S</Duration>
+				<Duration>PT8H0M0S</Duration>
 			</Baseline>
 		</Task>
 	</Tasks>
@@ -6865,7 +10081,7 @@ Análise de filmes
 			<ActualOvertimeCost>0</ActualOvertimeCost>
 			<RemainingCost>0</RemainingCost>
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
-			<WorkVariance>35520000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<CostVariance>0</CostVariance>
 			<SV>0.00</SV>
 			<CV>0.00</CV>
@@ -6880,6 +10096,162 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:11:00</CreationDate>
 			<IsCostResource>0</IsCostResource>
 			<IsBudget>0</IsBudget>
+			<Baseline>
+				<Number>0</Number>
+				<Work>PT592H0M0S</Work>
+			</Baseline>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-08-24T18:00:00</Start>
+				<Finish>2020-08-26T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT80H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-09-08T18:00:00</Start>
+				<Finish>2020-09-09T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-09-16T18:00:00</Start>
+				<Finish>2020-09-17T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-09-23T18:00:00</Start>
+				<Finish>2020-09-24T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-09-30T18:00:00</Start>
+				<Finish>2020-10-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-10-12T18:00:00</Start>
+				<Finish>2020-10-13T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-10-20T18:00:00</Start>
+				<Finish>2020-10-21T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-10-28T18:00:00</Start>
+				<Finish>2020-10-29T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT184H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2020-11-30T18:00:00</Start>
+				<Finish>2021-02-12T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>3</UID>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
 		</Resource>
 		<Resource>
 			<UID>4</UID>
@@ -6961,7 +10333,7 @@ Análise de filmes
 			<ActualOvertimeCost>0</ActualOvertimeCost>
 			<RemainingCost>0</RemainingCost>
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
-			<WorkVariance>10560000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<CostVariance>0</CostVariance>
 			<SV>0.00</SV>
 			<CV>0.00</CV>
@@ -6976,6 +10348,66 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:23:00</CreationDate>
 			<IsCostResource>0</IsCostResource>
 			<IsBudget>0</IsBudget>
+			<Baseline>
+				<Number>0</Number>
+				<Work>PT176H0M0S</Work>
+			</Baseline>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>5</UID>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>5</UID>
+				<Start>2021-02-26T18:00:00</Start>
+				<Finish>2021-03-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>5</UID>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>5</UID>
+				<Start>2021-03-12T18:00:00</Start>
+				<Finish>2021-03-19T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>5</UID>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>5</UID>
+				<Start>2021-03-26T18:00:00</Start>
+				<Finish>2021-04-01T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>5</UID>
+				<Start>2021-04-01T09:00:00</Start>
+				<Finish>2021-04-06T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
 		</Resource>
 		<Resource>
 			<UID>6</UID>
@@ -7009,7 +10441,7 @@ Análise de filmes
 			<ActualOvertimeCost>0</ActualOvertimeCost>
 			<RemainingCost>0</RemainingCost>
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
-			<WorkVariance>1440000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<CostVariance>0</CostVariance>
 			<SV>0.00</SV>
 			<CV>0.00</CV>
@@ -7024,6 +10456,18 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:24:00</CreationDate>
 			<IsCostResource>0</IsCostResource>
 			<IsBudget>0</IsBudget>
+			<Baseline>
+				<Number>0</Number>
+				<Work>PT24H0M0S</Work>
+			</Baseline>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>6</UID>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
 		</Resource>
 		<Resource>
 			<UID>7</UID>
@@ -7038,11 +10482,11 @@ Análise de filmes
 			<OverAllocated>0</OverAllocated>
 			<CanLevel>1</CanLevel>
 			<AccrueAt>3</AccrueAt>
-			<Work>PT192H0M0S</Work>
-			<RegularWork>PT192H0M0S</RegularWork>
+			<Work>PT184H0M0S</Work>
+			<RegularWork>PT184H0M0S</RegularWork>
 			<OvertimeWork>PT0H0M0S</OvertimeWork>
 			<ActualWork>PT0H0M0S</ActualWork>
-			<RemainingWork>PT192H0M0S</RemainingWork>
+			<RemainingWork>PT184H0M0S</RemainingWork>
 			<ActualOvertimeWork>PT0H0M0S</ActualOvertimeWork>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
 			<PercentWorkComplete>0</PercentWorkComplete>
@@ -7057,7 +10501,7 @@ Análise de filmes
 			<ActualOvertimeCost>0</ActualOvertimeCost>
 			<RemainingCost>0</RemainingCost>
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
-			<WorkVariance>11520000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<CostVariance>0</CostVariance>
 			<SV>0.00</SV>
 			<CV>0.00</CV>
@@ -7072,6 +10516,66 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:24:00</CreationDate>
 			<IsCostResource>0</IsCostResource>
 			<IsBudget>0</IsBudget>
+			<Baseline>
+				<Number>0</Number>
+				<Work>PT184H0M0S</Work>
+			</Baseline>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>7</UID>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>7</UID>
+				<Start>2021-04-15T18:00:00</Start>
+				<Finish>2021-04-16T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>7</UID>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>7</UID>
+				<Start>2021-04-22T18:00:00</Start>
+				<Finish>2021-04-23T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>7</UID>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>7</UID>
+				<Start>2021-05-04T18:00:00</Start>
+				<Finish>2021-05-05T09:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT0H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>7</Type>
+				<UID>7</UID>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
 		</Resource>
 	</Resources>
 	<Assignments>
@@ -7097,7 +10601,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2020-10-20T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -7128,6 +10632,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:20:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Work>PT48H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>15</UID>
@@ -7184,6 +10694,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>15</UID>
+				<Start>2020-10-13T09:00:00</Start>
+				<Finish>2020-10-20T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>16</UID>
@@ -7207,7 +10725,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2020-10-28T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -7238,6 +10756,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:21:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Work>PT48H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>16</UID>
@@ -7294,6 +10818,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>16</UID>
+				<Start>2020-10-21T09:00:00</Start>
+				<Finish>2020-10-28T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>19</UID>
@@ -7317,7 +10849,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2020-11-30T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>11040000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -7348,6 +10880,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:21:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Work>PT184H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>19</UID>
@@ -7571,6 +11109,14 @@ Análise de filmes
 				<Finish>2020-11-30T18:00:00</Finish>
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>19</UID>
+				<Start>2020-10-29T09:00:00</Start>
+				<Finish>2020-11-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT184H0M0S</Value>
 			</TimephasedData>
 		</Assignment>
 		<Assignment>
@@ -8378,7 +11924,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2021-02-17T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>1920000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -8409,6 +11955,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:22:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Work>PT32H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>28</UID>
@@ -8448,6 +12000,14 @@ Análise de filmes
 				<Finish>2021-02-17T18:00:00</Finish>
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>28</UID>
+				<Start>2021-02-12T09:00:00</Start>
+				<Finish>2021-02-17T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
 			</TimephasedData>
 		</Assignment>
 		<Assignment>
@@ -9133,7 +12693,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2021-03-12T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -9164,6 +12724,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:23:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Work>PT48H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>37</UID>
@@ -9220,6 +12786,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>37</UID>
+				<Start>2021-03-05T09:00:00</Start>
+				<Finish>2021-03-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>38</UID>
@@ -9243,7 +12817,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2021-03-26T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -9274,6 +12848,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:23:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Work>PT48H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>38</UID>
@@ -9330,6 +12910,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>38</UID>
+				<Start>2021-03-19T09:00:00</Start>
+				<Finish>2021-03-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>40</UID>
@@ -9351,7 +12939,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2021-04-06T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>1920000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -9380,6 +12968,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:23:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-04-01T09:00:00</Start>
+				<Finish>2021-04-06T18:00:00</Finish>
+				<Work>PT32H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>1</Type>
 				<UID>40</UID>
@@ -9419,6 +13013,14 @@ Análise de filmes
 				<Finish>2021-04-06T18:00:00</Finish>
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>40</UID>
+				<Start>2021-04-01T09:00:00</Start>
+				<Finish>2021-04-06T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
 			</TimephasedData>
 		</Assignment>
 		<Assignment>
@@ -9496,7 +13098,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2021-04-09T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>1440000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -9525,6 +13127,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:24:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Work>PT24H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>1</Type>
 				<UID>44</UID>
@@ -9549,6 +13157,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>44</UID>
+				<Start>2021-04-07T09:00:00</Start>
+				<Finish>2021-04-09T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT24H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>45</UID>
@@ -9570,7 +13186,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2021-04-15T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>1920000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -9599,6 +13215,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:24:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Work>PT32H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>1</Type>
 				<UID>45</UID>
@@ -9631,6 +13253,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>45</UID>
+				<Start>2021-04-12T09:00:00</Start>
+				<Finish>2021-04-15T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT32H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>46</UID>
@@ -9652,7 +13282,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2021-04-22T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2400000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -9681,6 +13311,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:25:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Work>PT40H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>1</Type>
 				<UID>46</UID>
@@ -9729,6 +13365,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>46</UID>
+				<Start>2021-04-16T09:00:00</Start>
+				<Finish>2021-04-22T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>47</UID>
@@ -9750,7 +13394,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2021-05-04T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>3840000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -9779,6 +13423,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:25:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Work>PT64H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>1</Type>
 				<UID>47</UID>
@@ -9859,6 +13509,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>47</UID>
+				<Start>2021-04-23T09:00:00</Start>
+				<Finish>2021-05-04T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>48</UID>
@@ -9878,9 +13536,9 @@ Análise de filmes
 			<CostVariance>0</CostVariance>
 			<CV>0.00</CV>
 			<Delay>0</Delay>
-			<Finish>2021-05-13T18:00:00</Finish>
+			<Finish>2021-05-12T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>3360000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -9890,18 +13548,18 @@ Análise de filmes
 			<Overallocated>0</Overallocated>
 			<OvertimeCost>0</OvertimeCost>
 			<OvertimeWork>PT0H0M0S</OvertimeWork>
-			<RegularWork>PT56H0M0S</RegularWork>
+			<RegularWork>PT48H0M0S</RegularWork>
 			<RemainingCost>0</RemainingCost>
 			<RemainingOvertimeCost>0</RemainingOvertimeCost>
 			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
-			<RemainingWork>PT56H0M0S</RemainingWork>
+			<RemainingWork>PT48H0M0S</RemainingWork>
 			<ResponsePending>0</ResponsePending>
 			<Start>2021-05-05T09:00:00</Start>
 			<StartVariance>0</StartVariance>
 			<Units>1</Units>
 			<UpdateNeeded>0</UpdateNeeded>
 			<VAC>0.00</VAC>
-			<Work>PT56H0M0S</Work>
+			<Work>PT48H0M0S</Work>
 			<WorkContour>0</WorkContour>
 			<BCWS>0.00</BCWS>
 			<BCWP>0.00</BCWP>
@@ -9909,6 +13567,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:25:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
+				<Work>PT48H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>1</Type>
 				<UID>48</UID>
@@ -9961,17 +13625,17 @@ Análise de filmes
 				<Type>1</Type>
 				<UID>48</UID>
 				<Start>2021-05-12T09:00:00</Start>
-				<Finish>2021-05-13T09:00:00</Finish>
+				<Finish>2021-05-12T18:00:00</Finish>
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
 			<TimephasedData>
-				<Type>1</Type>
+				<Type>4</Type>
 				<UID>48</UID>
-				<Start>2021-05-13T09:00:00</Start>
-				<Finish>2021-05-13T18:00:00</Finish>
+				<Start>2021-05-05T09:00:00</Start>
+				<Finish>2021-05-12T18:00:00</Finish>
 				<Unit>1</Unit>
-				<Value>PT8H0M0S</Value>
+				<Value>PT48H0M0S</Value>
 			</TimephasedData>
 		</Assignment>
 		<Assignment>
@@ -9996,7 +13660,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2020-08-24T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>480000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -10027,8 +13691,22 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:11:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Work>PT8H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
+				<UID>50</UID>
+				<Start>2020-08-24T09:00:00</Start>
+				<Finish>2020-08-24T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
 				<UID>50</UID>
 				<Start>2020-08-24T09:00:00</Start>
 				<Finish>2020-08-24T18:00:00</Finish>
@@ -10058,7 +13736,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2020-09-08T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>4800000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -10089,6 +13767,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:11:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Work>PT80H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>51</UID>
@@ -10185,6 +13869,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>51</UID>
+				<Start>2020-08-26T09:00:00</Start>
+				<Finish>2020-09-08T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT80H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>52</UID>
@@ -10208,7 +13900,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2020-09-16T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -10239,6 +13931,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:11:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Work>PT48H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>52</UID>
@@ -10295,6 +13993,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>52</UID>
+				<Start>2020-09-09T09:00:00</Start>
+				<Finish>2020-09-16T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>53</UID>
@@ -10318,7 +14024,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2020-09-23T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2400000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -10349,6 +14055,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:12:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Work>PT40H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>53</UID>
@@ -10397,6 +14109,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>53</UID>
+				<Start>2020-09-17T09:00:00</Start>
+				<Finish>2020-09-23T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>54</UID>
@@ -10420,7 +14140,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2020-09-30T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2400000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -10451,6 +14171,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:12:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Work>PT40H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>54</UID>
@@ -10498,6 +14224,14 @@ Análise de filmes
 				<Finish>2020-09-30T18:00:00</Finish>
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
+			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>54</UID>
+				<Start>2020-09-24T09:00:00</Start>
+				<Finish>2020-09-30T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT40H0M0S</Value>
 			</TimephasedData>
 		</Assignment>
 		<Assignment>
@@ -10550,9 +14284,14 @@ Análise de filmes
 			<BCWS>0.00</BCWS>
 			<BCWP>0.00</BCWP>
 			<BookingType>0</BookingType>
-			<CreationDate>2021-03-26T21:26:00</CreationDate>
+			<CreationDate>2021-03-26T21:28:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-01T09:00:00</Finish>
+			</Baseline>
 		</Assignment>
 		<Assignment>
 			<UID>57</UID>
@@ -10576,7 +14315,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2020-10-12T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>3840000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -10607,6 +14346,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:19:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Work>PT64H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>57</UID>
@@ -10687,6 +14432,14 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>57</UID>
+				<Start>2020-10-01T09:00:00</Start>
+				<Finish>2020-10-12T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT64H0M0S</Value>
+			</TimephasedData>
 		</Assignment>
 		<Assignment>
 			<UID>59</UID>
@@ -10710,7 +14463,7 @@ Análise de filmes
 			<Delay>0</Delay>
 			<Finish>2021-02-26T18:00:00</Finish>
 			<FinishVariance>0</FinishVariance>
-			<WorkVariance>2880000.00</WorkVariance>
+			<WorkVariance>0.00</WorkVariance>
 			<HasFixedRateUnits>1</HasFixedRateUnits>
 			<FixedMaterial>0</FixedMaterial>
 			<LevelingDelay>0</LevelingDelay>
@@ -10741,6 +14494,12 @@ Análise de filmes
 			<CreationDate>2021-03-26T21:23:00</CreationDate>
 			<BudgetCost>0</BudgetCost>
 			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Work>PT48H0M0S</Work>
+			</Baseline>
 			<TimephasedData>
 				<Type>2</Type>
 				<UID>59</UID>
@@ -10797,6 +14556,69 @@ Análise de filmes
 				<Unit>1</Unit>
 				<Value>PT8H0M0S</Value>
 			</TimephasedData>
+			<TimephasedData>
+				<Type>4</Type>
+				<UID>59</UID>
+				<Start>2021-02-19T09:00:00</Start>
+				<Finish>2021-02-26T18:00:00</Finish>
+				<Unit>1</Unit>
+				<Value>PT48H0M0S</Value>
+			</TimephasedData>
+		</Assignment>
+		<Assignment>
+			<UID>61</UID>
+			<GUID>D596BAA7-938E-EB11-9407-B68AB777E03D</GUID>
+			<TaskUID>50</TaskUID>
+			<ResourceUID>-65535</ResourceUID>
+			<PercentWorkComplete>0</PercentWorkComplete>
+			<ActualCost>0</ActualCost>
+			<ActualOvertimeCost>0</ActualOvertimeCost>
+			<ActualOvertimeWork>PT0H0M0S</ActualOvertimeWork>
+			<ActualWork>PT0H0M0S</ActualWork>
+			<ACWP>0.00</ACWP>
+			<Confirmed>0</Confirmed>
+			<Cost>0</Cost>
+			<CostRateTable>0</CostRateTable>
+			<RateScale>0</RateScale>
+			<CostVariance>0</CostVariance>
+			<CV>0.00</CV>
+			<Delay>0</Delay>
+			<Finish>2021-05-13T09:00:00</Finish>
+			<FinishVariance>-4800</FinishVariance>
+			<WorkVariance>0.00</WorkVariance>
+			<HasFixedRateUnits>1</HasFixedRateUnits>
+			<FixedMaterial>0</FixedMaterial>
+			<LevelingDelay>0</LevelingDelay>
+			<LevelingDelayFormat>7</LevelingDelayFormat>
+			<LinkedFields>0</LinkedFields>
+			<Milestone>1</Milestone>
+			<Overallocated>0</Overallocated>
+			<OvertimeCost>0</OvertimeCost>
+			<OvertimeWork>PT0H0M0S</OvertimeWork>
+			<RegularWork>PT0H0M0S</RegularWork>
+			<RemainingCost>0</RemainingCost>
+			<RemainingOvertimeCost>0</RemainingOvertimeCost>
+			<RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
+			<RemainingWork>PT0H0M0S</RemainingWork>
+			<ResponsePending>0</ResponsePending>
+			<Start>2021-05-13T09:00:00</Start>
+			<StartVariance>0</StartVariance>
+			<Units>1</Units>
+			<UpdateNeeded>0</UpdateNeeded>
+			<VAC>0.00</VAC>
+			<Work>PT0H0M0S</Work>
+			<WorkContour>0</WorkContour>
+			<BCWS>0.00</BCWS>
+			<BCWP>0.00</BCWP>
+			<BookingType>0</BookingType>
+			<CreationDate>2021-03-26T21:30:00</CreationDate>
+			<BudgetCost>0</BudgetCost>
+			<BudgetWork>PT0H0M0S</BudgetWork>
+			<Baseline>
+				<Number>0</Number>
+				<Start>2021-05-13T09:00:00</Start>
+				<Finish>2021-05-13T18:00:00</Finish>
+			</Baseline>
 		</Assignment>
 	</Assignments>
 </Project>
