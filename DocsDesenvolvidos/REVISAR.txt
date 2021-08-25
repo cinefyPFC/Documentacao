@@ -1,0 +1,5 @@
+RF001 – Cadastrar Usuário
+RF003 – Excluir cadastro de usuário
+RF004 – Visualizar perfil
+RF011 – Avaliar e indicar filmes
+RF013 – Notificação de filmes
